@@ -1,0 +1,50 @@
+query("* texta:'RESUMO'")
+query("* text:'RESUMO'")
+query("*text:'RESUMO'")
+query(*android.app.ActionBar$Tab)[0]
+query(*android.app.ActionBar$Tab)
+query "*android.app.ActionBar$Tab"
+query "*android.app.ActionBar$Tab"[0]
+b = query("* {text CONTAINS[c] 'Clientes'}")
+touch b
+exit
+reinstall_apps
+dffd
+start_test_server_in_background
+b = que
+sd~v]
+[exit
+exit
+exit
+quit
+quit
+reinstall_apps
+start_test_server_in_background
+b = query("* {text CONTAINS[c] 'Clientes'}")
+touch b
+exit
+reinstall_apps
+start_test_server_in_background
+touch("* {text CONTAINS[c] 'Clientes'}")
+touch("* id:'btnNovo'")
+exit
+reinstall_apps
+start_test_server_in_background
+touch("* {text CONTAINS[c] 'Clientes'}")
+query("*")
+touch("* id:'btnNovo'")
+query("*")
+touch("* id:'btnGravar'")
+query("*")
+exit
+reinstall_apps
+start_test_server_in_background
+touch("* {text CONTAINS[c] 'CATEGORIAS'}")
+query("*")
+touch("* id:'btnNovo'")
+query("*")
+query("* id:'descricao'", setText:'Qualquer')
+exit
+reinstall_apps
+start_test_server_in_background
+exit
