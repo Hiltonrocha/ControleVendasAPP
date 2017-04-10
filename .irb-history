@@ -1,50 +1,50 @@
-query("* texta:'RESUMO'")
-query("* text:'RESUMO'")
-query("*text:'RESUMO'")
-query(*android.app.ActionBar$Tab)[0]
-query(*android.app.ActionBar$Tab)
-query "*android.app.ActionBar$Tab"
-query "*android.app.ActionBar$Tab"[0]
-b = query("* {text CONTAINS[c] 'Clientes'}")
-touch b
 exit
-reinstall_apps
-dffd
-start_test_server_in_background
-b = que
-sd~v]
-[exit
-exit
-exit
-quit
-quit
-reinstall_apps
-start_test_server_in_background
-b = query("* {text CONTAINS[c] 'Clientes'}")
-touch b
 exit
 reinstall_apps
 start_test_server_in_background
-touch("* {text CONTAINS[c] 'Clientes'}")
-touch("* id:'btnNovo'")
+touch(nill, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
 exit
-reinstall_apps
 start_test_server_in_background
-touch("* {text CONTAINS[c] 'Clientes'}")
-query("*")
-touch("* id:'btnNovo'")
-query("*")
-touch("* id:'btnGravar'")
-query("*")
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+ touch(nil, {:offset => {:x => 912, :y => 75}})
+ touch(nil, {:offset =>{:x => 912, :y => 75}})
+ touch(nil, {:offset =>{:x => 912, :y => 75}})
+ touch(nil, {:offset =>{:x => 188, :y => 591}})
+ touch(nil, {:offset =>{:x => 188, :y => 591}})
+ touch(nil, {:offset =>{:x => 912, :y => 75}})
+ touch(nil, {:offset =>{:x => 912, :y => 75}})
+ touch(nil, {:offset =>{:x => 188, :y => 591}})
+ touch(nil, {:offset =>{:x => 188, :y => 591}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
 exit
-reinstall_apps
 start_test_server_in_background
-touch("* {text CONTAINS[c] 'CATEGORIAS'}")
-query("*")
-touch("* id:'btnNovo'")
-query("*")
-query("* id:'descricao'", setText:'Qualquer')
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1055, :y => 364}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1440, :y => 252}})
+touch(nil, {:offset =>{:x => 1244, :y => 84}})
 exit
-reinstall_apps
 start_test_server_in_background
+start_test
+exitexto
+exite
+exit
+exit
+start_test_server_in_background
+touch(nil, {:offset =>{:x => 1244, :y => 84}})
+touch(nil, {:offset =>{:x => 1244, :y => 84}})
+touch(nil, {:offset =>{:x => 1244, :y => 84}})
+exit
+start_test_server_in_background
+query("android.widget.ImageButton")
 exit

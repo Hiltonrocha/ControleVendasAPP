@@ -14,9 +14,9 @@ Esquema do Cenário: Cadastrar Categoria
 	E preencher o campo com o nome da "<categoria>"
 	Então a categoria deve ser cadastrada com sucesso
 Exemplos:
-| categoria	 |
-|Alimentos   |
-|Eletrônicos |
-|Vestuário   |
-|Games       |
+	| categoria	 |
+	|Alimentos   |
+	|Eletrônicos |
+	|Vestuário   |
+	|Games       |
 
