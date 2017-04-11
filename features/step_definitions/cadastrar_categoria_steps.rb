@@ -20,17 +20,18 @@ Quando(/^eu clicar em nova categoria$/) do
   sleep 3
 end
 
-Quando(/^preencher o campo com o nome da "([^"]*)"$/) do |categoria|
-  @categoria = categoria
-  query("* id:'descricao'", setText: @categoria)
+Quando(/^preencher o campo com o nome da categoria$/) do
+  Faker::Config.locale = 'pt-BR'
+  $categoria = Faker::Commerce.department 
+  query("* id:'descricao'", setText: $categoria)
   touch("* id:'btnGravar'")
   sleep 3
 end
 
 Então(/^a categoria deve ser cadastrada com sucesso$/) do
-  query("* id:'autoCompleteTextView'", setText: @categoria)
+  query("* id:'autoCompleteTextView'", setText: $categoria)
   touch("* id:'btnPesq'")
-  if element_exists("* {text CONTAINS[c] '#{@categoria}'}") != true
+  if element_exists("* {text CONTAINS[c] '#{$categoria}'}") != true
   	 fail "elemento nao encontrado "
   end
 end
