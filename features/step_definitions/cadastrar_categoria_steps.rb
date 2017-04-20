@@ -1,6 +1,11 @@
 require 'pry'
 Dado(/^que eu acesse o aplicativo Controle de vendas$/) do
    element_exists("* text:'ControleVendas'")
+    popup =element_exists ("* id:'button2'")
+        if popup == true
+  	        touch("* id:'button2'")
+        end
+        pan_right
   sleep 3
 end 
 

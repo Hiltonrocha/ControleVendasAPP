@@ -1,6 +1,3 @@
-touch(nil, {:offset =>{:x => 1055, :y => 364}})
-touch(nil, {:offset =>{:x => 1055, :y => 364}})
-touch(nil, {:offset =>{:x => 1440, :y => 252}})
 touch(nil, {:offset =>{:x => 1440, :y => 252}})
 touch(nil, {:offset =>{:x => 1244, :y => 84}})
 exit
@@ -47,4 +44,7 @@ exit
 reinstall_apps
 exir
 exir
+exit
+reinstall_apps
+start_test_server_in_background
 exit

@@ -2,20 +2,20 @@
 Dado(/^que acesse o aplicativo Controle de Vendas$/) do
   element_exists("* text:'ControleVendas'")
   sleep 1
-   popup =element_exists ("* id:'button2'")
-        if popup == true
-  	        touch("* id:'button2'")
-        end
+
 end
 
 Dado(/^acesse a aba de clientes$/) do
-  
-  tap_when_element_exists("android.widget.TextView {text CONTAINS[c] 'CLIENTES'}")
-  #touch("* {text CONTAINS[c] 'CLIENTES'}")
+  popup =element_exists ("* id:'button2'")
+    if popup == true
+  	   touch("* id:'button2'")
+    end
+  tap_when_element_exists("android.widget.TextView {text CONTAINS[c] 'CLIENTES'}", timeout:10)
+  #tap_when_element_exists("* id: 'btnNovo'", timeout:15)
   botaonovo = element_exists ("* id:'btnNovo'")
   if botaonovo == true
   	touch("* id:'btnNovo'")
-    end
+  end
 
 end
 
